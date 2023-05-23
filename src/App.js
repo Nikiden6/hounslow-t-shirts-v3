@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Navbar from '../Components/Navbar.js';
-import Footer from '../Components/Footer.js';
-import HomePage from '../Pages/HomePage.js';
-import BestSellingsPage from '../pages/BestSellingsPage.js';
-import HotDealsPage from '../pages/HotDealsPage.js';
+import Navbar from './Components/Navbar.js';
+import Footer from './Components/Footer.js';
+import HomePage from './Pages/HomePage.js';
+import BestSellings from './Pages/BestSellingsPage.js';
+import HotDealsPage from './Pages/HotDealsPage.js';
 
 function App() {
   return (
