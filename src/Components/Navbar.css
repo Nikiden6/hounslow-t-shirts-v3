@@ -1,0 +1,46 @@
+.navigation-bar {
+    position: relative;
+    width: 250px;
+    background-color: #d9d9d9;
+    border-right: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    padding: 10px;
+    margin-top: 0;
+  }
+    
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 50;
+    }
+    
+    li {
+      margin-bottom: 50px;
+      
+      background-color: rgb(255, 255, 255);
+    }
+    
+    a {
+      text-decoration: none;
+      color: #333;
+      padding: 5px;
+    }
+    
+    .a:hover {
+      background-color: #e60606;
+    }
+  
+    /*for best selling, new releases page and for hot deals page */
+  .BestSelButton {
+    position: relative;
+    left: 2px;
+    right: 2px;
+    display: inline-block;
+    padding: 15px 73px;
+    background-color: #FF6C6C;
+    color: #fff;
+    border: 2px solid #000000;
+    border-color: #000000;
+    outline: none;
+    transform: skewX(-20deg); /* Skew the button */
+  }

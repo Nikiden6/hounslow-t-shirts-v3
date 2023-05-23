@@ -1,20 +1,23 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './Components/Navbar.js';
 import Footer from './Components/Footer.js';
-import HomePage from './Pages/HomePage.js';
+import Home from './Pages/HomePage.js';
 import BestSellings from './Pages/BestSellingsPage.js';
-import HotDealsPage from './Pages/HotDealsPage.js';
+import HotDeals from './Pages/HotDealsPage.js';
+import Header from './Components/Header.js'
 
 function App() {
   return (
+    
     <Router>
+      <Header />
       <Navbar />
-      <Switch>
-        <Route exact path="/" component={HomePage} />
-        <Route path="/best-sellings" component={BestSellingsPage} />
-        <Route path="/hot-deals" component={HotDealsPage} />
-      </Switch>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/best-sellings" element={<BestSellings />} />
+        <Route path="/hot-deals" element={<HotDeals />} />
+      </Routes>
       <Footer />
     </Router>
   );

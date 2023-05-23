@@ -15,3 +15,5 @@ const HotDeals = () => {
       </div>
     );
   }
+
+  export default HotDeals

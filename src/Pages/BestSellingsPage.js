@@ -3,6 +3,7 @@ import React from 'react';
 const BestSellings = () => {
     return (
       <div>
+        
         <header>
           <h1>Welcome to BestSellings</h1>
         </header>
@@ -15,3 +16,5 @@ const BestSellings = () => {
       </div>
     );
   }
+  
+  export default BestSellings
