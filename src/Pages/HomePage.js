@@ -7,7 +7,7 @@ const Home = () => {
           <h1>Welcome to My Online Shop</h1>
         </header>
         <main>
-          {/* Add content like featured products, categories, etc. */}
+          {/* Add content like featured products, etc. */}
         </main>
         <footer>
           {/* Add footer content */}
