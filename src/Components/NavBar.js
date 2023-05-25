@@ -1,14 +1,16 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { BrowserRouter, Link } from 'react-router-dom';
 import '../Components/Navbar.css'
+import BestSellings from '../Pages/BestSellingsPage';
 
 const Navbar = () => {
   return ( 
     <div>
         <div className="navigation-bar">
             <ul>
-                
-                <li className="BestSelButton"><a href="#">Best Sellings</a></li>
+                <li className="BestSelButton">
+                    <Link to ='best-sellings'>Best Sellings</Link>
+                </li>
                 <li><a href="#">Button 2</a></li>
                 <li><a href="#">Button 3</a></li>
                 
