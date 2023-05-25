@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './Components/Navbar.js';
+import Navbar from './Components/NavBar.js';
 import Footer from './Components/Footer.js';
 import Home from './Pages/HomePage.js';
 import BestSellings from './Pages/BestSellingsPage.js';
@@ -14,6 +14,7 @@ function App() {
       <Header />
       <Navbar />
       <Routes>
+
         <Route path="/" element={<Home />} />
         <Route path="/best-sellings" element={<BestSellings />} />
         <Route path="/hot-deals" element={<HotDeals />} />

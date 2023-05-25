@@ -16,11 +16,17 @@ header {
     align-items: center;
   }
   
-  .search-bar input[type="text"] {
+  /*.search-bar input[type="text"] {
     padding: 5px;
     margin-right: 10px;
   }
-  
+  */
+
+  #Search-input{
+    display: flex;
+    border: 2px solid black;
+    border-radius: 19px;
+  }
   .text {
     font-weight: bold;
   }
