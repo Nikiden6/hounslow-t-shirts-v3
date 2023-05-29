@@ -6,29 +6,44 @@
     border-bottom: 2px solid #000000;
     padding: 10px;
     margin-top: 0;
+    text-align: center;
+    
 }
     
-ul {
+.RedLinks {
   list-style-type: none;
   padding: 0;
-  margin: 50;
 }
     
-.Link  {
-  margin-bottom: 50px;
-      
-  background-color: rgb(255, 255, 255);
-}
-    
-a {
+.RedLinks a {
+  text-align: center;
   text-decoration: none;
-  color: rgb(0, 0, 0);
-  padding: 5px;
-  }
+  color: rgb(245, 245, 245);
   
+  margin-bottom: 25px;
+
+  font-size: 14px;
+  position: relative;
+  left: 0px;
+  right: 0px;
+  display: flex;
+  padding: 15px ;
+  justify-content: center;
+  background-color: #FF6C6C;
+  
+  border: 2px solid #000000;
+  border-color: #000000;
+  outline: none;
+  transform: skewX(-20deg); /* Skew the button */
+}
+
+.RedLinks :hover{
+  background-color: #e60606;
+}
 
 
-.HotButtons a {
+
+/*.HotButtons a {
   position: relative;
   left: 2px;
   right: 2px;
@@ -41,22 +56,69 @@ a {
   outline: none;
   transform: skewX(-20deg);
 }
+*/
+
     /*for best selling, new releases page and for hot deals page */
-.BestSelButton {
+/*.BestSelButton {
   position: relative;
   left: 2px;
   right: 2px;
   display: flex;
   padding: 15px 73px;
-  margin-bottom: 50px;
   background-color: #FF6C6C;
   color: rgb(0, 0, 0);
   border: 2px solid #000000;
   border-color: #000000;
   outline: none;
-  transform: skewX(-20deg); /* Skew the button */
+  transform: skewX(-20deg); /* Skew the button 
+  }*/
+
+
+.DefaultLinks{
+  list-style-type: none;
+  padding: 0;
+  margin-top: 75px;
 }
 
-.HotButtons :hover{
-  background-color: #e60606;
+.DefaultLinks a{
+
+  display: flex;
+  position: relative;
+  border: solid;
+  border-color: 2px #000000;
+  margin-bottom: 25px;
+
+  /*text*/
+  text-decoration: none;
+  color: #000000;
+  font-size: 14px;
+  left: 0px;
+  right: 0px;
+  padding: 15px ;
+  justify-content: center;
+  outline: none;
+  white-space: nowrap;
+  /*text*/
+  /*border*/
+
+  /*border*/
+}
+
+
+
+
+.DefaultLinks :hover{
+  background-color: #888888;
+}
+
+.Contact{
+  display: flex;
+  position: relative;
+  border: solid;
+  padding: 0px;
+  margin-top: 150px;
+}
+
+.Contact :hover{
+  background-color: #ffffff;
 }

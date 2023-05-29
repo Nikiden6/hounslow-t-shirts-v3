@@ -1,25 +1,28 @@
 import React from 'react';
 import { BrowserRouter, Link } from 'react-router-dom';
 import '../Components/Navbar.css'
-import BestSellings from '../Pages/BestSellingsPage';
+
 
 const Navbar = () => {
   return ( 
     <div>
         <div className="navigation-bar">
-            <ul className='HotButtons'>
-                    
-                        <Link to ='/best-sellings' className='BestSelButton'>Best Sellings</Link>
-                    
-                    <li><Link to = '/'>New releases</Link></li>  
-                    <li><Link to = '/hot-deals'>Hot Deals</Link></li>
-                </ul>
-                <ul>
-                <li>Button 4</li>
-                <li> Button 5</li>
-                <li>Button 6</li>
-                <li>Contact & About</li>
+            <h1>Menu</h1>
+            <ul className='RedLinks'>
+                <Link to ='/best-sellings' className='BestSelButton'>Best Sellings</Link>
+                <Link to = '/hot-deals'>Hot Deals</Link>
+                <Link to = '/new-releases'>New releases</Link>
             </ul>
+                
+            <ul className='DefaultLinks'>
+                <Link to = '/t-shirts-for-men'>T-Shitrts for men </Link>
+                <Link to = '/t-shirts-for-women'>T-Shitrts for women </Link>
+                <Link to = '/t-shirts-for-kids'>T-Shitrts for men</Link>
+                <Link to = '/contact' className='Contact' >Contact</Link>
+            </ul>
+            
+            
+            
         </div>
     </div>
 );
