@@ -4,7 +4,7 @@ import Navbar from './Components/NavBar.js';
 import Footer from './Components/Footer.js';
 import Home from './Pages/HomePage.js';
 import BestSellings from './Pages/BestSellingsPage.js';
-import HotDeals from './Pages/HotDealsPage.js';
+import HotDeals from './Pages/HotDealsPage.js'
 import Header from './Components/Header.js'
 
 function App() {

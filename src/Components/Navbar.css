@@ -6,41 +6,57 @@
     border-bottom: 2px solid #000000;
     padding: 10px;
     margin-top: 0;
-  }
+}
     
-    ul {
-      list-style-type: none;
-      padding: 0;
-      margin: 50;
-    }
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 50;
+}
     
-    li {
-      margin-bottom: 50px;
+.Link  {
+  margin-bottom: 50px;
       
-      background-color: rgb(255, 255, 255);
-    }
+  background-color: rgb(255, 255, 255);
+}
     
-    a {
-      text-decoration: none;
-      color: #333;
-      padding: 5px;
-    }
-    
-    .a:hover {
-      background-color: #e60606;
-    }
-  
-    /*for best selling, new releases page and for hot deals page */
-  .BestSelButton {
-    position: relative;
-    left: 2px;
-    right: 2px;
-    display: inline-block;
-    padding: 15px 73px;
-    background-color: #FF6C6C;
-    color: #fff;
-    border: 2px solid #000000;
-    border-color: #000000;
-    outline: none;
-    transform: skewX(-20deg); /* Skew the button */
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  padding: 5px;
   }
+  
+
+
+.HotButtons a {
+  position: relative;
+  left: 2px;
+  right: 2px;
+  padding: 15px 73px;
+  display: inline-block;
+  background-color: #FF6C6C;
+  color: #fff;
+  border: 2px solid #000000;
+  border-color: #000000;
+  outline: none;
+  transform: skewX(-20deg);
+}
+    /*for best selling, new releases page and for hot deals page */
+.BestSelButton {
+  position: relative;
+  left: 2px;
+  right: 2px;
+  display: flex;
+  padding: 15px 73px;
+  margin-bottom: 50px;
+  background-color: #FF6C6C;
+  color: rgb(0, 0, 0);
+  border: 2px solid #000000;
+  border-color: #000000;
+  outline: none;
+  transform: skewX(-20deg); /* Skew the button */
+}
+
+.HotButtons :hover{
+  background-color: #e60606;
+}

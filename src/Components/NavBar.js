@@ -7,17 +7,18 @@ const Navbar = () => {
   return ( 
     <div>
         <div className="navigation-bar">
-            <ul>
-                <li className="BestSelButton">
-                    <Link to ='best-sellings'>Best Sellings</Link>
-                </li>
-                <li><a href="#">Button 2</a></li>
-                <li><a href="#">Button 3</a></li>
-                
-                <li><a href="#">Button 4</a></li>
-                <li><a href="#">Button 5</a></li>
-                <li><a href="#">Button 6</a></li>
-                <li><a href="#">Contact & About</a></li>
+            <ul className='HotButtons'>
+                    
+                        <Link to ='/best-sellings' className='BestSelButton'>Best Sellings</Link>
+                    
+                    <li><Link to = '/'>New releases</Link></li>  
+                    <li><Link to = '/hot-deals'>Hot Deals</Link></li>
+                </ul>
+                <ul>
+                <li>Button 4</li>
+                <li> Button 5</li>
+                <li>Button 6</li>
+                <li>Contact & About</li>
             </ul>
         </div>
     </div>
