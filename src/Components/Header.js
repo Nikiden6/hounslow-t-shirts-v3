@@ -7,7 +7,7 @@ import * as BsIcons from "react-icons/bs"
 
 const Header = () => {
     return (
-      <header>
+      <header className='HeaderSection'>
           <Link to = '/home'>
               <img src={logo} alt="Logo" className="logo-image" />
             </Link>

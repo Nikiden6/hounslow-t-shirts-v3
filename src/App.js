@@ -11,6 +11,7 @@ import TShirtsForMen from './Pages/TShirtsForMen.js'
 import TShirtsForWomen from './Pages/TShirtsForWomen.js'
 import TShirtsForKids from './Pages/TShirtsForKids.js'
 import Contact from './Pages/Contact.js';
+import  './App.css'
 
 
 function App() {
@@ -18,18 +19,22 @@ function App() {
     
     <Router>
       <Header />
-      <Navbar />
-      <Routes>
-        <Route path="/home" element={<Home />} />
-        <Route path="/best-sellings" element={<BestSellings />} />
-        <Route path="/new-releases" element={<NewReleasesPage />} />
-        <Route path="/hot-deals" element={<HotDeals />} />
-        <Route path="/t-shirts-for-men" element={<TShirtsForMen />} />
-        <Route path="/t-shirts-for-women" element={<TShirtsForWomen />} />
-        <Route path="/t-shirts-for-kids" element={<TShirtsForKids />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
+      <div className='MainSection'>
+        <Navbar />
+        <Routes>
+          <Route path="/home" element={<Home />} />
+          <Route path="/best-sellings" element={<BestSellings />} />
+          <Route path="/new-releases" element={<NewReleasesPage />} />
+          <Route path="/hot-deals" element={<HotDeals />} />
+          <Route path="/t-shirts-for-men" element={<TShirtsForMen />} />
+          <Route path="/t-shirts-for-women" element={<TShirtsForWomen />} />
+          <Route path="/t-shirts-for-kids" element={<TShirtsForKids />} />
+          <Route path="/contact" element={<Contact />} />
+        
+        </Routes>
+      </div>
       <Footer />
+
     </Router>
   );
 }
