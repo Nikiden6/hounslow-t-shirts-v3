@@ -116,9 +116,6 @@
   position: relative;
   border: solid;
   padding: 0px;
-  margin-top: 150px;
+  margin-top: 90px;
 }
 
-.Contact :hover{
-  background-color: #ffffff;
-}
