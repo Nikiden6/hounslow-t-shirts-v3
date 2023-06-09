@@ -18,24 +18,24 @@ function App() {
   return (
     <div>
       <Router>
-      <Header />
-      <div className='MainSection'>
-        <Navbar />
-        <Routes>
-          <Route path="/home" element={<Home />} />
-          <Route path="/best-sellings" element={<BestSellings />} />
-          <Route path="/new-releases" element={<NewReleasesPage />} />
-          <Route path="/hot-deals" element={<HotDeals />} />
-          <Route path="/t-shirts-for-men" element={<TShirtsForMen />} />
-          <Route path="/t-shirts-for-women" element={<TShirtsForWomen />} />
-          <Route path="/t-shirts-for-kids" element={<TShirtsForKids />} />
-          <Route path="/contact" element={<Contact />} />
-        
+        <Header />
+        <div className='MainSection'>
+          <Navbar />
+          <Routes>
+            <Route path="/home" element={<Home />} />
+            <Route path="/best-sellings" element={<BestSellings />} />
+            <Route path="/new-releases" element={<NewReleasesPage />} />
+            <Route path="/hot-deals" element={<HotDeals />} />
+            <Route path="/t-shirts-for-men" element={<TShirtsForMen />} />
+            <Route path="/t-shirts-for-women" element={<TShirtsForWomen />} />
+            <Route path="/t-shirts-for-kids" element={<TShirtsForKids />} />
+            <Route path="/contact" element={<Contact />} />
         </Routes>
-      </div>
-      <Footer />
-
-    </Router>
+        </div>
+        <Footer />
+      </Router>
+    </div>
+    
   );
 }
 
