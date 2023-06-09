@@ -1,6 +1,44 @@
-.TitleContainer{
+.HomePage{
+    flex: 1 ;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+    flex-direction: column;
 }
+
+
+.header{
+    display: flex;
+    flex: 1;
+    
+    align-content: center;
+    background-color: rgb(49, 68, 68);
+    justify-content: center;
+    
+}
+
+.AdvertHome{
+    display: flex  ;
+    border-color: 20px black;
+    border: solid ;
+}
+.AdverImg{
+    display: flex;
+    flex-direction: col;
+   
+    padding-left: 25px;
+}
+
+/*button a{
+    
+    border: solid 2px #000000;
+    background-color: #424242;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-stretch: normal;
+    font-size: 36px;
+    text-decoration: none;
+}
+
+button a :hover{
+    background-color: #8d8d8d;
+}
+*/

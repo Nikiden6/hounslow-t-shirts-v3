@@ -1,0 +1,19 @@
+.ContactHeadings{
+    display: flex;
+    position: relative;
+    
+    justify-content: center;
+    background-color: aqua;
+}
+
+
+.header{
+    display: flex;
+    flex: 1;
+    align-content: center;
+    background-color: aqua;
+    justify-content: center;
+    
+}
+
+

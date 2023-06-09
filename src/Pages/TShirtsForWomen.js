@@ -5,7 +5,7 @@ const TShirtsForWomen = () => {
       <div>
         
         <header>
-          <h1>Buy our printed t-shirts for Men</h1>
+          <h1>Buy our printed t-shirts for WOMen</h1>
         </header>
         <main>
           {/* Add content like featured products, categories, etc. */}
