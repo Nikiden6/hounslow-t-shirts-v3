@@ -1,10 +1,11 @@
 import React from 'react';
+import '../Pages/Contact.css'
 
 const Contact = () => {
     return (
       <div>
-        <header>
-          <h1>Contact or find our visit our store</h1>
+        <header >
+          <h1 className='ContactHeadings' >Contact or find our visit our store</h1>
         </header>
         <main>
           {/* Add content like featured products, etc. */}

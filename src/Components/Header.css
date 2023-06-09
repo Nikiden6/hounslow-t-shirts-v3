@@ -1,11 +1,11 @@
-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: #BCBCBC;
-  padding: 0px;
-  margin-bottom: 0;
-}
+.HeaderSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #BCBCBC;
+    padding: 0px;
+    margin-bottom: 0;
+  }
   
 .logo {
   cursor: pointer;

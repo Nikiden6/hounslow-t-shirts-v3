@@ -11,7 +11,7 @@ import TShirtsForMen from './Pages/TShirtsForMen.js'
 import TShirtsForWomen from './Pages/TShirtsForWomen.js'
 import TShirtsForKids from './Pages/TShirtsForKids.js'
 import Contact from './Pages/Contact.js';
-
+import  './App.css'
 
 
 function App() {
@@ -19,16 +19,8 @@ function App() {
     <div>
       <Router>
       <Header />
-        <div>
-          
-          <Navbar />
-          <div>
-            <h1>
-             welcome to my online Page
-            </h1>
-          </div>
-
-        </div>
+      <div className='MainSection'>
+        <Navbar />
         <Routes>
           <Route path="/home" element={<Home />} />
           <Route path="/best-sellings" element={<BestSellings />} />
@@ -38,10 +30,12 @@ function App() {
           <Route path="/t-shirts-for-women" element={<TShirtsForWomen />} />
           <Route path="/t-shirts-for-kids" element={<TShirtsForKids />} />
           <Route path="/contact" element={<Contact />} />
+        
         </Routes>
-        <Footer />
-      </Router>
-    </div>
+      </div>
+      <Footer />
+
+    </Router>
   );
 }
 
