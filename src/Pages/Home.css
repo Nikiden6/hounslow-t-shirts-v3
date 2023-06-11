@@ -2,87 +2,124 @@
     flex: 1 ;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    width: 100%;
 }
-
-.Welcome{
+.HomeBody{
     display: flex;
-    justify-content: center;
-    background-color: #808080a1;
-    font-size: 48px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    margin-bottom:10px ;
-    margin-top: 15px;
-    border-radius: 9px;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    
 }
 
 
 .HomeHeader{
-    flex: 1;
-    align-content: center;
-    color: rgb(49, 68, 68);
-    
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #BCBCBC;
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 20px 0px;
 }
 
-.HomeBody{
-    display: flex;
-    flex-direction: column ;
-}
+
 
 .AdvertHome{
-    display: flex;
-   
-    width: 1032px;
-    height: 322.65px;
-    left: 375px;
-    top: 184px;
-    border: 2px solid black;
+    display: flex  ;
+    
+    
+    width: 60%;
+    justify-content: center;
+    
+    padding: 25px 25px 25px 25px;
     background: #D9D9D9;
+    
     border-radius: 15px;
+    margin-bottom: 5%;
 }
 
 .SectionShopNow{
     display: flex;
-    flex: 1;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
+
 
 .BuyText{
-    position: absolute;
-
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 44px;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     text-align: center;
-
-    color: #000000;
-}
-
-.ShopNowButton{
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 36px;
     line-height: 44px;
-    display: flex;
-    align-items: center;
-    text-align: center;
+    width: 250px;
     
-    color: #FFFFFF;
 }
 
-.AdverImg{
+
+.ShopNowButton {
     display: flex;
-    flex-direction: row;
-   
-    padding-left: 25px;
+    justify-content: center;
+    width: 250px;
+    height: auto;
+
+    background: #8D8D8D;
+    color: #FFFFFF;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 36px;
+    text-decoration: none;
+
 }
+
+.AdvertImg{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
+
+
+.AdvertImg img{
+    display: flex;
+    
+    border-radius: 50px;
+    margin-left: 25px;
+}
+
+.HomeHD{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #8D8D8D;
+    margin-top: 5%;
+    border-radius: 15px 15px 0px 0px ;
+}
+
+.H1HD{
+    display: flex;
+    margin-top: 0px;
+    height: auto;
+    
+    
+}
+
+
+
+
+
+
+
+
 
 /*button a{
     
