@@ -4,25 +4,82 @@
     flex-direction: column;
 }
 
-
-.header{
+.Welcome{
     display: flex;
-    flex: 1;
-    
-    align-content: center;
-    background-color: rgb(49, 68, 68);
     justify-content: center;
+    background-color: #808080a1;
+    font-size: 48px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom:10px ;
+    margin-top: 15px;
+    border-radius: 9px;
+}
+
+
+.HomeHeader{
+    flex: 1;
+    align-content: center;
+    color: rgb(49, 68, 68);
     
+}
+
+.HomeBody{
+    display: flex;
+    flex-direction: column ;
 }
 
 .AdvertHome{
-    display: flex  ;
-    border-color: 20px black;
-    border: solid ;
+    display: flex;
+   
+    width: 1032px;
+    height: 322.65px;
+    left: 375px;
+    top: 184px;
+    border: 2px solid black;
+    background: #D9D9D9;
+    border-radius: 15px;
 }
+
+.SectionShopNow{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.BuyText{
+    position: absolute;
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+.ShopNowButton{
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
 .AdverImg{
     display: flex;
-    flex-direction: col;
+    flex-direction: row;
    
     padding-left: 25px;
 }
