@@ -38,9 +38,9 @@ import t35 from '../data/35.jpeg'
 export const TshirtList   = [
   {
     id:1,
-    productName:"1",
+    name:"1",
     price: 1,
-    productImage: t1,
+    image: t1,
     
   },
   {
