@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Switch } from 'react-router-dom';
 import Header from './Components/Header.js'
 import Navbar from './Components/NavBar.js';
 import Footer from './Components/Footer.js';
@@ -22,6 +22,7 @@ function App() {
         <div className='MainSection'>
           <Navbar />
           <Routes>
+            
             <Route path="/home" element={<Home />} />
             <Route path="/best-sellings" element={<BestSellings />} />
             <Route path="/new-releases" element={<NewReleasesPage />} />

@@ -35,7 +35,7 @@ import t33 from '../data/33.jpeg'
 import t34 from '../data/34.jpg'
 import t35 from '../data/35.jpeg'
 
-const TshirtList   = [
+export const TshirtList   = [
   {
     id:1,
     productName:"1",

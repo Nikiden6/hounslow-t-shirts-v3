@@ -3,7 +3,7 @@ import h_img_1 from '../data/HomePageImg/h_img_1.png';
 import h_img_2 from '../data/HomePageImg/h_img_2.png';
 import '../Pages/Home.css'
 import {Link} from 'react-router-dom'
-import {Ts} from '../Components/TshirtList.js'
+import {Ts, TshirtList} from '../Components/TshirtList.js'
 const Home = () => {
     return (
       
@@ -28,7 +28,7 @@ const Home = () => {
           <div className='HomeHD'>
             <h1 className='H1HD'>HOT DEALS OF THIS WEEK</h1>
             <div className='AdvertProducts'>
-              
+              {TshirtList.map()}
 
             </div>
           </div>
