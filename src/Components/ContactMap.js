@@ -3,7 +3,7 @@ import React from 'react';
 const ContactMap = () => {
   return (
     <iframe 
-        width="600"
+        width="800"
         height="450"
         loading="lazy"
         allowFullScreen
