@@ -3,7 +3,6 @@ import h_img_1 from '../data/HomePageImg/h_img_1.png';
 import h_img_2 from '../data/HomePageImg/h_img_2.png';
 import '../Pages/Home.css'
 import {Link} from 'react-router-dom'
-import {TshirtList} from '../Components/TshirtList.js'
 import { HomeTshirtsList } from '../Components/HomeTshirtsList.js';
 
 const Home = () => {
@@ -22,8 +21,8 @@ const Home = () => {
             </Link>
           </div>
           <div className='AdvertImg'>
-            <img src= {h_img_1} alt = ""/>
-            <img src= {h_img_2}/>
+            <img src= {h_img_1} alt = "Mda1"/>
+            <img src= {h_img_2} alt ="Mda2"/>
           </div>
         </div>
         <div className='HomeHD'>

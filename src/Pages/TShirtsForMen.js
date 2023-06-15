@@ -49,7 +49,7 @@ const TShirtsForMen = () => {
         id: 1, 
         name: "My life-My Rock",
         price: 11, 
-        image: i2,
+        image: i1,
         
     },
     {
