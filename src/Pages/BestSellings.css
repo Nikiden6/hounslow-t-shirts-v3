@@ -13,7 +13,7 @@
     display:  grid;
     grid-template-columns:  [first] 300px [line2] 300px [line3] 300px;
     grid-template-rows: 300px 300px 300px;
-    
+    height: fit-content;
     justify-content: center;
     justify-self: center;
     row-gap: 50px ;
@@ -30,7 +30,7 @@
     position: relative;
     border-radius: 15px;
     padding-bottom: 65px;
-    position: relative;
+    
     width: 200px;
     height: fit-content;
     margin-right: 25px;
@@ -40,7 +40,7 @@
     height: 300px;
     flex: 0 0 calc(40% - 20px); /* Adjust this percentage based on the number of items you want in a row */
     margin: 10px;
-    height: 100%;
+   
 }
 
 .tshirt-itemB img {
@@ -65,4 +65,19 @@
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     color: black;
+}
+
+.h1Bs {
+    font-family: 'JejuHallasan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 32px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+
+    border-color: 1px solid #FB0D0D;
 }

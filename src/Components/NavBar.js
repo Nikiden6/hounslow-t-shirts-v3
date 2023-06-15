@@ -17,7 +17,7 @@ const Navbar = () => {
             <ul className='DefaultLinks'>
                 <Link to = '/t-shirts-for-men'>T-Shitrts for men </Link>
                 <Link to = '/t-shirts-for-women'>T-Shitrts for women </Link>
-                <Link to = '/t-shirts-for-kids'>T-Shitrts for men</Link>
+                <Link to = '/t-shirts-for-kids'>T-Shitrts for kids</Link>
                 <Link to = '/contact' className='Contact' >Contact</Link>
             </ul>
             

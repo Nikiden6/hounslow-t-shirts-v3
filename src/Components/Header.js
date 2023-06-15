@@ -12,9 +12,9 @@ const Header = () => {
               <img src={logo} alt="Logo" className="logo-image" />
             </Link>
           <div className="search-bar">
-              <input id='Search-input' type="text" placeholder="Search..."/>
-              <BsIcons.BsSearch/>
-        </div>
+            <input id='Search-input' type="text" placeholder="Search..."/>
+            <BsIcons.BsSearch className='Search-icon'/>
+          </div>
         <div className="text">Text on the right</div>
       </header>
     );

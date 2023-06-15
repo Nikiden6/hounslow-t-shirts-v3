@@ -7,8 +7,8 @@ const BestSellings = () => {
     return (
       <div className='bodyBs'>
         
-        <header>
-          <h1>Welcome to BestSellings</h1>
+        <header className='headerBs'>
+          <h1 className='h1Bs'>BEST SELLINGS</h1>
         </header>
         <main className='Main'>
           {/* Add content like featured products, categories, etc. */}
