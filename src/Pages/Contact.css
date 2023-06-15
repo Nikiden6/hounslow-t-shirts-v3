@@ -21,7 +21,10 @@
     
 }
 
-.contactMap{
+.contactMap iframe{
+    display: flex;
+    border: 2px solid;
+    border-radius: 15px 15px 0px 0px;
     
 }
 

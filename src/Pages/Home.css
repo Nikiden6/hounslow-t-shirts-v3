@@ -136,7 +136,7 @@ T-SHIRTS LIST
     
     background: linear-gradient(to bottom, #f9f9f9, #ebebeb);
     padding: 10px;
-
+    position: relative;
     width: 200px;
     margin-right: 25px;
     padding: 10px;
@@ -166,6 +166,12 @@ T-SHIRTS LIST
     color: black;
 }
 
+.discBox{
+    position: absolute;
+    right: 0px;
+    top: 0%;
+    background-color: red;
+}
 
 
 

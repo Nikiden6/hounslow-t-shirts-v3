@@ -1,24 +1,16 @@
 import React from 'react';
-import { GoogleMap, LoadScript, Marker,  } from '@react-google-maps/api';
-
-const containerStyle = {
-    
-    height: '400px',
-    width: '60%',
-};
-
-const zIndex = {
-  lat: 51.54168143783231, 
-  lng: -0.36028963040250267,
-};
 
 const ContactMap = () => {
   return (
-    <LoadScript googleMapsApiKey="AIzaSyBnHHLHNP1WkP3YsYScgTHGNFkD6EVYXMg">
-      <GoogleMap mapContainerStyle={containerStyle} center={zIndex} zoom={13}>
-        <Marker position={zIndex} />
-      </GoogleMap>
-    </LoadScript>
+    <iframe 
+        width="600"
+        height="450"
+        loading="lazy"
+        allowFullScreen
+        referrerPolicy="no-referrer-when-downgrade"
+        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBnHHLHNP1WkP3YsYScgTHGNFkD6EVYXMg
+            &q=Dunelm,%20Aladdin%20tower,%20Western%20Ave,%20Greenford%20UB6%208LZ">
+        </iframe>
   );
 };
 

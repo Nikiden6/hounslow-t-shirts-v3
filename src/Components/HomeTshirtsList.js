@@ -8,6 +8,7 @@ import hd19 from '../../src/data/19.jpeg'
         name: "God hand",
         price: 7, 
         image: hd2,
+        discount: '-20%',
     },
     {
         id: hd6, 
@@ -20,5 +21,6 @@ import hd19 from '../../src/data/19.jpeg'
         name: "Blue ocean of hope",
         price: 7, 
         image: hd19,
+        discount: '-20%',
     }
  ];

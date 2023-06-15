@@ -36,7 +36,7 @@ const Home = () => {
               <div key={tshirt.id} className="tshirt-item">
                 <Link to = '/best-sellings'>
                   <img src={tshirt.image} alt={tshirt.name} />
-                    
+                  {tshirt.discount?<div className='discBox'>{tshirt.discount}</div>:null}
                   <h3 className='tshirtName'>{tshirt.name}</h3>
                   <p>Price: {tshirt.price}</p>
                 </Link>
