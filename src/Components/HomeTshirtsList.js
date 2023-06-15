@@ -17,7 +17,7 @@ import hd19 from '../../src/data/19.jpeg'
         image: hd6,
     },
     {
-        id: hd19, 
+        id: 19, 
         name: "Blue ocean of hope",
         price: 7, 
         image: hd19,

@@ -1,0 +1,68 @@
+.bodyBs{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Main{
+    display: flex;
+}
+.tshirt-listB{
+    display:  grid;
+    grid-template-columns:  [first] 300px [line2] 300px [line3] 300px;
+    grid-template-rows: 300px 300px 300px;
+    
+    justify-content: center;
+    justify-self: center;
+    row-gap: 50px ;
+    column-gap: 20px;
+}
+
+.tshirt-itemB{
+    
+    margin-bottom: 20px;
+    background-color:#bdbdbd;
+}
+    
+.tshirt-itemB {
+    position: relative;
+    border-radius: 15px;
+    padding-bottom: 65px;
+    position: relative;
+    width: 200px;
+    height: fit-content;
+    margin-right: 25px;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ccc;
+    height: 300px;
+    flex: 0 0 calc(40% - 20px); /* Adjust this percentage based on the number of items you want in a row */
+    margin: 10px;
+    height: 100%;
+}
+
+.tshirt-itemB img {
+    border-radius: 12px;
+    width: -moz-fit-content;
+    width: fit-content;
+    max-width: 80%;
+    height: -moz-fit-content;
+    height: fit-content;
+    max-height: 80%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.tshirt-itemB h3 {
+    color: black;
+}
+
+.tshirt-itemB p {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: black;
+}
