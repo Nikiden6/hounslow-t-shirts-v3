@@ -21,7 +21,8 @@
     
 }
 
-.contactMap{
-    
+.mapSector{
+    display: flex;
+    flex-direction: row;
 }
 

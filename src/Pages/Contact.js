@@ -11,8 +11,17 @@ const Contact = () => {
         </header>
         <main>
           {/* Add content like featured products, etc. */}
-          <div className='contactMap'>
-            <ContactMap />
+          <div className='mapSector'>
+            <div className='contactMap'>
+              <ContactMap />
+            </div>
+            <div className='list-of-locations'>
+              <ul>
+                <li> asdasgf                </li>
+                <li> asdasgf                </li>
+                <li> asdasgf                </li>
+              </ul>
+            </div>
           </div>
         </main>
         <footer>
