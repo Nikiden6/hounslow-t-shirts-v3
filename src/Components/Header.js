@@ -15,7 +15,10 @@ const Header = () => {
             <input id='Search-input' type="text" placeholder="Search..."/>
             <BsIcons.BsSearch className='Search-icon'/>
           </div>
-        <div className="text">Text on the right</div>
+        <div className="text-right">
+          <h2 >Call to order</h2>
+          <p >+447448931451</p>
+        </div>
       </header>
     );
   };

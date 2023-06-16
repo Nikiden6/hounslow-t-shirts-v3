@@ -64,6 +64,7 @@ const TShirtsForMen = () => {
         name: "Gold Heart",
         price: 9, 
         image: i3,
+        color: "black",
         
     },
     {
