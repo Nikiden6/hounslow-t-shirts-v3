@@ -40,32 +40,28 @@ But it's not just about looks - our 3D t-shirts are also incredibly comfortable.
                     </ul>
                     
                 </div>
-                <div className='feedbackSect'>
-                
-                <button className='feedbackB'>
-                  Leave feedback
-                </button>
-                </div>
+
               </div>
 
             </div>
 
           </div>
           </div>
-        </main>
-        <div className='FeedbackSection'>
-          <h1>
-            Leave feedback to imrpove this website 
-          </h1>
-          <iframe className='feedbackForm'
-            title = "Leave Feedback"
-            style={{maxhight: '60%', display: 'flex', alignItems: 'center', justifyContent: 'center', width: '90%', height: '680px'}}
-            src="https://forms.office.com/e/cErjNq6gfR?embed=true" 
-            
-            
-            allowFullScreen> 
-          </iframe>
-          </div>
+        
+          <div className='FeedbackSection'>
+            <h1>
+              Leave feedback to imrpove this website 
+            </h1>
+            <iframe className='feedbackForm'
+              title = "Leave Feedback"
+              style={{maxhight: '60%', display: 'flex', alignItems: 'center', justifyContent: 'center', width: '90%', height: '680px'}}
+              src="https://forms.office.com/e/cErjNq6gfR?embed=true" 
+              
+              
+              allowFullScreen> 
+            </iframe>
+            </div>
+            </main>
         <footer>
           {/* Add footer content */}
         </footer>

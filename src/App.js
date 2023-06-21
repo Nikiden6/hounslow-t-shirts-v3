@@ -17,12 +17,12 @@ import  './App.css'
 function App() {
   return (
     <div>
-      <Router basename='/home' element= {<Home/>} >
+      <Router basename='/' element= {<Home/>} >
         <Header />
         <div className='MainSection'>
           <Navbar />
           <Routes >
-            <Route  path="/home" element={<Home/>}/>
+            <Route  path="/" element={<Home/>}/>
 
             <Route path="/best-sellings" element={<BestSellings />} />
             <Route path="/new-releases" element={<NewReleasesPage />} />

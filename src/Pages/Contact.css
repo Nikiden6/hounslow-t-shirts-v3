@@ -8,6 +8,7 @@
     align-items: center;
     justify-content: center;
     background-color: #ffffff;
+    margin-left: 280px;
    }
 
 .bodyBottom{
@@ -16,6 +17,7 @@
     margin-bottom: 0px;
     align-items: center;
     justify-content: center;
+    margin-left: 0;
 }
 
 .headerSection{
@@ -24,6 +26,7 @@
     align-items: center;
     justify-content: center;
     background-color: none;
+    margin-left: 0px;
 }
 
 
@@ -152,7 +155,7 @@
     background-color: #BCBCBC;
     margin-top: 15px;
     border-radius: 15px;
-    max-width: 90%;
+    width: 90%;
 }
 
 .FeedbackSection h1{
@@ -167,7 +170,7 @@
     display : flex;
     align-items:center;
     justify-content: center;
-    max-width:90%;
+    
     height: 680px;
     border-radius: 15px;
 }

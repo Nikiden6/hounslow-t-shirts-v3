@@ -1,12 +1,16 @@
 .HeaderSection {
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: space-between;
   background-color: #BCBCBC;
   border-bottom: solid 2px;
+  margin-left: 0px;
     
 }
   
+
+
 .logo-image {
   cursor: pointer;
 }
