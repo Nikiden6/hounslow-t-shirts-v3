@@ -27,21 +27,45 @@ But it's not just about looks - our 3D t-shirts are also incredibly comfortable.
                 <h3 className='mapH'>Visit our shop</h3>
                 <ContactMap />
               </div>
-              <div className='list-of-details'>
-                <div className='ConDetH'>
-                  <h2>Contact Details</h2>
-                </div>
-                <div className='list'>
-                  <ul>
-                    <li> tel. number: +447448931755 </li>
-                    <li> email adress: tshirt@houncsow.co.uk</li>
+              <div className='LD'>
+                <div className='list-of-details'>
+                  <div className='ConDetH'>
+                    <h2>Contact Details</h2>
+                  </div>
+                  <div className='list'>
+                    <ul>
+                      <li> tel. number: +447448931755 </li>
+                      <li> email adress: tshirt@houncsow.co.uk</li>
+                      
+                    </ul>
                     
-                  </ul>
+                </div>
+                <div className='feedbackSect'>
+                
+                <button className='feedbackB'>
+                  Leave feedback
+                </button>
+                </div>
               </div>
+
             </div>
+
           </div>
           </div>
         </main>
+        <div className='FeedbackSection'>
+          <h1>
+            Leave feedback to imrpove this website 
+          </h1>
+          <iframe className='feedbackForm'
+            title = "Leave Feedback"
+            style={{maxhight: '60%', display: 'flex', alignItems: 'center', justifyContent: 'center', width: '90%', height: '680px'}}
+            src="https://forms.office.com/e/cErjNq6gfR?embed=true" 
+            
+            
+            allowFullScreen> 
+          </iframe>
+          </div>
         <footer>
           {/* Add footer content */}
         </footer>

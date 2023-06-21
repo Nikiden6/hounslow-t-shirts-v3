@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, BrowserRouter } from 'react-router-dom';
 import Header from './Components/Header.js'
 import Navbar from './Components/NavBar.js';
 import Footer from './Components/Footer.js';
@@ -17,13 +17,13 @@ import  './App.css'
 function App() {
   return (
     <div>
-      <Router>
+      <Router basename='/home' element= {<Home/>} >
         <Header />
         <div className='MainSection'>
           <Navbar />
-          <Routes>
-            
-            <Route path="/home" element={<Home />} />
+          <Routes >
+            <Route  path="/home" element={<Home/>}/>
+
             <Route path="/best-sellings" element={<BestSellings />} />
             <Route path="/new-releases" element={<NewReleasesPage />} />
             <Route path="/hot-deals" element={<HotDeals />} />

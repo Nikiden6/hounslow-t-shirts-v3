@@ -142,3 +142,25 @@
     font-size: 20px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+.FeedbackSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.FeedbackSection h1{
+    font-weight: 800;
+    font-size: 64px;
+}
+
+.feedbackForm{
+    max-height:80%;
+    display : flex;
+    align-items:center;
+    justify-content: center;
+    max-width:90%;
+    height: 680px;
+    border-radius: 15px;
+}
